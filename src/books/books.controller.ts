@@ -1,7 +1,6 @@
 import { Controller, Get, Post, Body, Param, Delete, ParseIntPipe, Query } from '@nestjs/common';
 import { BooksService } from './books.service';
 import { CreateBookDto } from './dto/create-book.dto';
-import { YearRangePipe } from './pipes/year-range.pipe';
 import { BooleanTransformPipe } from './pipes/boolean-transform.pipe';
 
 @Controller('books')
